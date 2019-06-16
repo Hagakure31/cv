@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+  }
+  .container{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    color: whitesmoke;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .container-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .container h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 300;
+  }
+  .container h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+
+
+
+
+
+
+  .container p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .container li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .container li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .container li a:hover{
+    color: #b9b9b9;
+  }
+  
+  .content{
+       
+       border-top: white 2px solid;
+       
+  }
+
+
+  
+
+  .experience, .formation, .competence{
+    border-top: white 2px solid;
+    padding-bottom: 15px;
+    
+  }
+
+  .content h3{
+    font-size: 25px;
+    font-weight: 200;
+  }
+
+  .content h4{
+      font-size: 20px;
+      font-weight: 100;
+  }
